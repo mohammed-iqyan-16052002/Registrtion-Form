@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain {
+    height: 100vh;
+    width: 100%;
+    padding: 70px;
+    background-image: url('https://www.davidrevoy.com/data/images/blog/2022/fedora36kdespin/2022-06-17_fedora-36-kde-spin_01_revoy-digital-painting-workstation_net.jpg');
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+::placeholder {
+    text-align: left;
+    color: rgb(255, 246, 246);
+}
+
+.form {
+    height: 70vh;
+    width: 40%;
+    margin: auto;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 10px 10px rgb(202, 195, 189);
+    border-radius: 5px;
+}
+
+.input {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.input:nth-child(1) input:focus-within {
+    border-bottom: 3px solid gray;
+}
+
+.input:nth-child(1):focus-within i {
+    color: rgb(205, 216, 205);
+}
+
+.input:nth-child(2) input:focus-within {
+    border-bottom: 3px solid gray;
+}
+
+.input:nth-child(2):focus-within i {
+    color: rgb(205, 216, 205);
+}
+
+.input:nth-child(3) input:focus-within {
+    border-bottom: 3px solid gray;
+}
+
+.input:nth-child(3):focus-within i {
+    color: rgb(205, 216, 205);
+}
+
+.input:nth-child(4) input:focus-within {
+    border-bottom: 3px solid gray;
+}
+
+.input:nth-child(4):focus-within i {
+    color: rgb(205, 216, 205);
+}
+
+.input:nth-child(5) input:focus-within {
+    border-bottom: 3px solid gray;
+}
+
+.input:nth-child(5):focus-within i {
+    color: rgb(205, 216, 205);
+}
+
+#submit {
+    width: 25%;
+    color: #ffff;
+    cursor: pointer;
+    background: #000;
+    border: none;
+    padding: 5px 10px;
+
+    transition: 1s ease-in-out;
+}
+
+#submit:hover {
+    color: #000;
+    background-color: #ffff;
+    border: none;
+    font-weight: bold;
+}
+
+input {
+    width: 50%;
+    background: transparent;
+    outline: none;
+    padding: 2px 2px;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: 3px solid black;
+    margin-left: 20px;
+}
+
+i {
+    width: 10px;
+    color: white;
+    margin-right: 1px;
+}
